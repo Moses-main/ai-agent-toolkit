@@ -10,7 +10,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/Moses-main/ai-agent-toolkit/main)](https://github.com/Moses-main/ai-agent-toolkit/commits)
 [![Contributors](https://img.shields.io/github/contributors/Moses-main/ai-agent-toolkit)](https://github.com/Moses-main/ai-agent-toolkit/graphs/contributors)
 
-[📚 Documentation](docs/README.md) • [🔑 API Keys](docs/API_KEYS.md)
+[📚 Documentation](docs/README.md) • [🔑 API Keys](API_KEYS.md)
 
 ---
 
