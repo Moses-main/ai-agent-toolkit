@@ -20,11 +20,38 @@
 
 ## 🚀 Quick Start
 
-```python
-# 1. Install
-pip install ai-agent-toolkit
+### Option 1: Clone & Install (Recommended)
 
-# 2. Create your agent
+```bash
+# Clone the repository
+git clone https://github.com/Moses-main/ai-agent-toolkit.git
+cd ai-agent-toolkit
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .
+```
+
+### Option 2: Create from Templates
+
+```bash
+# Clone
+git clone https://github.com/Moses-main/ai-agent-toolkit.git
+cd ai-agent-toolkit
+
+# Run a template directly
+python templates/simple/agent.py
+python templates/tool_agent/agent.py
+python templates/conversational/agent.py
+python templates/react/agent.py
+```
+
+### Create Your First Agent
+
+```python
+# Create your agent
 from ai_agent import Agent, OpenAIClient
 
 # Initialize LLM client
@@ -36,7 +63,7 @@ agent = Agent(
     tools=[calculator, search, your_custom_tool]
 )
 
-# 3. Run!
+# Run!
 response = agent.run("What's the weather in Lagos and calculate 25 * 4?")
 print(response)
 ```
