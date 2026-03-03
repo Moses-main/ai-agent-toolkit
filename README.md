@@ -36,6 +36,8 @@ pip install -r requirements.txt
 
 # Install in development mode
 pip install -e .
+
+> ⚠️ **Need an API Key?** See [API_KEYS.md](API_KEYS.md) for getting keys from OpenAI, Anthropic, Ollama, or Azure.
 ```
 
 ### Option 2: Create from Templates
@@ -86,6 +88,8 @@ ai-agent-toolkit/
 │   └── exceptions.py # Error classes
 ├── templates/        # Agent templates
 ├── examples/         # Usage examples
+├── API_KEYS.md       # 🔑 API keys guide (OpenAI, Anthropic, Ollama, Azure)
+└── README.md        # This file
 └── tests/           # Test suite
 ```
 
