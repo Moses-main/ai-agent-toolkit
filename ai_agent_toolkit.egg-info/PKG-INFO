@@ -1,3 +1,23 @@
+Metadata-Version: 2.4
+Name: ai-agent-toolkit
+Version: 0.1.0
+Summary: A framework-agnostic toolkit for building AI agents
+Author-email: Moses-main <moses@example.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai>=1.0.0
+Requires-Dist: anthropic>=0.18.0
+Requires-Dist: requests>=2.28.0
+Requires-Dist: python-dotenv>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Dynamic: license-file
+
 # 🤖 AI Agent Framework
 
 > A lightweight, extensible framework for building AI agents with tools, memory, and multi-step reasoning.
@@ -5,10 +25,6 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-0.1.0-orange)](https://github.com/Moses-main/ai-agent-toolkit)
-[![Stars](https://img.shields.io/github/stars/Moses-main/ai-agent-toolkit?style=social)](https://github.com/Moses-main/ai-agent-toolkit/stargazers)
-[![Forks](https://img.shields.io/github/forks/Moses-main/ai-agent-toolkit?style=social)](https://github.com/Moses-main/ai-agent-toolkit/network)
-[![Last Commit](https://img.shields.io/github/last-commit/Moses-main/ai-agent-toolkit/main)](https://github.com/Moses-main/ai-agent-toolkit/commits)
-[![Contributors](https://img.shields.io/github/contributors/Moses-main/ai-agent-toolkit)](https://github.com/Moses-main/ai-agent-toolkit/graphs/contributors)
 
 ---
 
